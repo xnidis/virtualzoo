@@ -3,11 +3,11 @@ package com.virtualzoo.models;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@Entity
+@Entity(name = "tricks")
 public class Trick {
 	@Id
 	private Long id;
-	private String description;
+	private String trick;
 
 	public Long getId() {
 		return id;
@@ -17,11 +17,11 @@ public class Trick {
 		this.id = id;
 	}
 
-	public String getDescription() {
-		return description;
+	public String getTrick() {
+		return trick;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setTrick(String trick) {
+		this.trick = trick;
 	}
 }
