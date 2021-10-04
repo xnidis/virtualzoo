@@ -1,9 +1,12 @@
 package com.virtualzoo.models.dto;
 
+import java.util.List;
+
 public class AnimalResponse {
 	private String id;
 	private String name;
 	private String species;
+	private List<String> tricks;
 
 	public String getId() {
 		return id;
@@ -27,5 +30,13 @@ public class AnimalResponse {
 
 	public void setSpecies(String species) {
 		this.species = species;
+	}
+
+	public List<String> getTricks() {
+		return tricks;
+	}
+
+	public void setTricks(List<String> tricks) {
+		this.tricks = tricks;
 	}
 }
