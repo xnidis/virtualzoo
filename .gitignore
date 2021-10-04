@@ -1,0 +1,25 @@
+
+# IntelliJ specific files/directories
+out
+.idea
+*.ipr
+*.iws
+*.iml
+*.mvn
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings
+.metadata
+
+# Build output directies
+/target
+*/target
+/build
+*/build
+/bin
+*/bin
+classes
+/my.properties
+/openbet.log
