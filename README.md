@@ -1,5 +1,5 @@
 # virtualzoo
-###A demo REST project build with Spring Boot, WebFlux, MySql, etc.<br />
+### A demo REST project build with Spring Boot, WebFlux, MySql, etc.<br />
 
 * Create database "test" or update the application.properties with your database.<br />
 Update the db credentials.<br />
