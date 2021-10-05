@@ -82,7 +82,7 @@ public class AnimalService {
 	private LearnTrickResponse prepareLearnTricksResponse(Collection<Trick> tricks) {
 		LearnTrickResponse response = new LearnTrickResponse();
 		response.setTricks(tricks.stream()
-				.map(t -> t.getTrick())
+				.map(Trick::getTrick)
 				.collect(Collectors.toList()));
 
 		return response;
