@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.virtualzoo.models.dto.AnimalResponse;
+import com.virtualzoo.models.dto.LearnTrickResponse;
 import com.virtualzoo.models.dto.TrickResponse;
 import com.virtualzoo.services.AnimalService;
 
@@ -30,8 +31,12 @@ public class AnimalsController {
 	}
 
 	@GetMapping("/{animalId}/doTrick")
-	public Mono<TrickResponse> getTricks(@PathVariable("animalId") String animalId) {
+	public Mono<TrickResponse> doTrick(@PathVariable("animalId") String animalId) {
 		return animalService.getAnimalTricks(animalId);
 	}
 
+	@GetMapping("/{animalId}/learnTrick")
+	public Mono<LearnTrickResponse> learnTrick(@PathVariable("animalId") String animalId) {
+		return animalService.getTricksOfSameSpecies(animalId);
+	}
 }
