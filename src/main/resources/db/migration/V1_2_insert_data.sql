@@ -1,11 +1,3 @@
-insert into animals (id,name,species_id) values
-	 ('3c526c53','hermes',1),
-	 ('3e5cb766','zeus',2),
-	 ('3feaac1b','apollo',3),
-	 ('41a5fb6d','hera',1),
-	 ('43682757','socrates',2),
-	 ('b4520c63','medusa',1),
-	 ('b6c3a40d','poseidon',1);
 
 insert into species (description) values
 	 ('dog'),
@@ -18,7 +10,16 @@ insert into tricks (trick) values
 	 ('sing'),
 	 ('dance'),
 	 ('moonwalk');
-
+	 
+insert into animals (id,name,species_id) values
+	 ('3c526c53','hermes',1),
+	 ('3e5cb766','zeus',2),
+	 ('3feaac1b','apollo',3),
+	 ('41a5fb6d','hera',1),
+	 ('43682757','socrates',2),
+	 ('b4520c63','medusa',1),
+	 ('b6c3a40d','poseidon',1);
+	 
 insert into animal_tricks (animal_id,trick_id) values
 	 ('3c526c53',1),
 	 ('3c526c53',2),
