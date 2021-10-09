@@ -1,8 +1,10 @@
 # virtualzoo
 ### A demo REST project build with Spring Boot, WebFlux, MySql, etc.<br />
 
-* Create database "test" or update the application.properties with your database.<br />
-Update the db credentials.<br />
+* MySql is required (todo: seup docker-compose to run mysql and this app image) <br />
+* Update the application.properties with your database credentials:<br />
+  > spring.datasource.username=root <br />
+  > spring.datasource.password=root
 
 * Execute the sql scripts in db/migration (todo: setup flyway).<br />
 * Build: mvn clean install
