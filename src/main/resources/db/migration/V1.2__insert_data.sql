@@ -1,3 +1,8 @@
+insert into species (description) values
+	 ('dog'),
+	 ('cat'),
+	 ('parrot');
+
 insert into animals (id,name,species_id) values
 	 ('3c526c53','hermes',1),
 	 ('3e5cb766','zeus',2),
@@ -6,11 +11,6 @@ insert into animals (id,name,species_id) values
 	 ('43682757','socrates',2),
 	 ('b4520c63','medusa',1),
 	 ('b6c3a40d','poseidon',1);
-
-insert into species (description) values
-	 ('dog'),
-	 ('cat'),
-	 ('parrot');
 
 insert into tricks (trick) values
 	 ('jump'),
