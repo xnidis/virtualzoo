@@ -1,5 +1,5 @@
 # virtualzoo
-### A demo REST project build with Spring Boot, WebFlux, MySql, etc.<br />
+### A demo REST project built with Spring Boot, WebFlux, MySql, etc.<br />
 
 * MySql is required (todo: seup docker-compose to run mysql and this app image) <br />
 * Update the application.properties with your database credentials:<br />
